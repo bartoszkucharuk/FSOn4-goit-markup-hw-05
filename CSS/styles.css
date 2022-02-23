@@ -10,7 +10,6 @@ body {
    font-family: 'Roboto', sans-serif;;
    color: var(--font-black-color);
    font-weight: 500;
-   width: 1600px;
    }
 h1,
 h2,
@@ -179,8 +178,6 @@ img {display: block;
 .nav-contact-link-mail{
     margin-left: 10px;
 }
-
-
 .nav-contact-link-tel {
     margin-right: 27px;
     margin-left: 50px;
@@ -574,9 +571,8 @@ img {display: block;
     Height: auto;
     border: 1px solid #EEE;
     margin-bottom: 30px;
+
 }
-
-
 
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
@@ -605,16 +601,13 @@ img {display: block;
     color: #fff;
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover .img-overlay {
 transform: translateY(0%);
 }
 
-.portfolio-list-item-header,
-.portfolio-list-item-text {
-    x-index: 2;
-}
 
 .portfolio-list-item-header {
     font-family: var(--main-font);
