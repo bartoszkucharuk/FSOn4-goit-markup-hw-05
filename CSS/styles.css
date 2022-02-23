@@ -555,12 +555,14 @@ img {display: block;
     display: block;
     justify-content: center;
     padding-bottom: 94px;
+    
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
  }
 
 .portfolio-list-item {
@@ -571,14 +573,13 @@ img {display: block;
     Height: auto;
     border: 1px solid #EEE;
     margin-bottom: 30px;
-
-}
+    }
 
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    }
 
 
 .img-overlay {
@@ -602,10 +603,12 @@ img {display: block;
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .portfolio-list-item:hover .img-overlay {
 transform: translateY(0%);
+
 }
 
 
@@ -617,6 +620,7 @@ transform: translateY(0%);
     line-height: 2.000;
     letter-spacing: 0.06em;
     padding-left: 24px;
+    
 }
 
 .portfolio-list-item-text {
@@ -626,6 +630,7 @@ transform: translateY(0%);
     color: var(--main-color);
     padding-left:24px;
     padding-right:24px;
+    
 }
 
 /* ======== END HEADER ======== */
