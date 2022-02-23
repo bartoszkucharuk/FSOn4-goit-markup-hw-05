@@ -45,7 +45,7 @@ img {display: block;
 .section {
     align-items: center;
     margin: 0 auto;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 
 .container {
@@ -380,6 +380,7 @@ img {display: block;
     align-items: center;
     padding-left: 32px;
     padding-right: 32px;
+    
 }
 
 .social-links-list-item {
@@ -389,7 +390,7 @@ img {display: block;
     background-color: transparent;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
 .social-links-list-item:hover, 
@@ -405,7 +406,7 @@ img {display: block;
 .social-links-icon {
     max-width: 20px;
     max-height: 20px;
-    color: #AFB1B8;
+    fill: #AFB1B8;
 }
 
 /* ======== END our team ======== */
