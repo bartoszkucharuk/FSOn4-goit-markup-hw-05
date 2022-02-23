@@ -585,7 +585,7 @@ img {display: block;
 }
 
 
-/* .img-overlay {
+.img-overlay {
     position: absolute;
     display: block;
     font-size: 16px;
@@ -604,13 +604,17 @@ img {display: block;
     padding-right: 45px;
     color: #fff;
     background: rgba(33, 150, 243, 0.9);
-    transform: translateY (-100%);
+    transform: translateY(100%);
 }
 
 .portfolio-list-item:hover .img-overlay {
-transform: translateY-(100%);
-} */
+transform: translateY(0%);
+}
 
+.portfolio-list-item-header,
+.portfolio-list-item-text {
+    x-index: 2;
+}
 
 .portfolio-list-item-header {
     font-family: var(--main-font);
