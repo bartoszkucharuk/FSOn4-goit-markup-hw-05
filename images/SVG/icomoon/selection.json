@@ -32,7 +32,7 @@
         }
       ],
       "properties": {
-        "order": 61,
+        "order": 75,
         "id": 4,
         "name": "mail",
         "prevSize": 32
@@ -82,7 +82,7 @@
         }
       ],
       "properties": {
-        "order": 56,
+        "order": 76,
         "id": 1,
         "name": "smartphone",
         "prevSize": 32
@@ -132,7 +132,7 @@
         }
       ],
       "properties": {
-        "order": 58,
+        "order": 77,
         "id": 2,
         "name": "satelite",
         "prevSize": 32
@@ -201,7 +201,7 @@
         }
       ],
       "properties": {
-        "order": 69,
+        "order": 78,
         "id": 14,
         "name": "clock",
         "prevSize": 32
@@ -280,7 +280,7 @@
         }
       ],
       "properties": {
-        "order": 72,
+        "order": 82,
         "id": 3,
         "name": "monitor",
         "prevSize": 32
@@ -1296,7 +1296,7 @@
         }
       ],
       "properties": {
-        "order": 59,
+        "order": 79,
         "id": 6,
         "name": "logo_5",
         "prevSize": 32
@@ -1506,7 +1506,7 @@
         }
       ],
       "properties": {
-        "order": 60,
+        "order": 80,
         "id": 5,
         "name": "logo_6",
         "prevSize": 32
@@ -1545,7 +1545,7 @@
         }
       ],
       "properties": {
-        "order": 55,
+        "order": 81,
         "id": 0,
         "name": "twitter",
         "prevSize": 32
@@ -1553,6 +1553,39 @@
       "setIdx": 0,
       "setId": 3,
       "iconIdx": 15
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 103.132l-103.132-103.132-408.868 408.868-408.868-408.868-103.132 103.132 408.868 408.868-408.868 408.868 103.132 103.132 408.868-408.868 408.868 408.868 103.132-103.132-408.868-408.868 408.868-408.868z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "modal-close-button"
+        ],
+        "colorPermutations": {
+          "1171171171175177184125525525513315024313333331": [
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 74,
+        "id": 16,
+        "name": "modal-close-button",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 16
     }
   ],
   "height": 1024,

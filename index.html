@@ -61,7 +61,7 @@
         <div class="hero">
                 <div class="banner container">
                     <h1 class="header-hero">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                    <button type="button" class="button-hero link">Zamów usługę</button>
+                    <button type="button" class="button-hero link" data-modal-open>Zamów usługę</button>
                 </div>
             </div>
         </div>
@@ -398,6 +398,19 @@
         </div>
     </div>
 </footer>
+
+
+<div class="backdrop is.hidden" data-modal>
+    <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+            <svg>
+                <use href="./images/sprite.svg#icon-modal-close-button"></use>
+            </svg>    
+            </button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
