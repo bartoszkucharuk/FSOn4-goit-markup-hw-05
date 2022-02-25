@@ -44,14 +44,12 @@ img {display: block;
 .section {
     align-items: center;
     margin: 0 auto;
-    border: 1px dashed red;
 }
 
 .container {
     width: 1200px;
     align-items: center;
     margin: 0 auto;
-    /* border: 1px solid black; */
 }
 
 /* pseudoclasses components */
@@ -647,15 +645,24 @@ overflow: hidden;
 /* ======== END HEADER ======== */
 /* ----------------------------------------------------------------------- */
 /* ======== FOOTER ======== */
-.section-footer {
-    height: 252px;
-    background-color: #2F303A;
+.section-footer{
     display: flex;
+    height: 100%;
+    background-color: #2F303A;
+    display: block;
 }
 
 .footer-content {
-    padding-left: 215px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 15px;
     padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-adress-wrapper {
+    margin-left: 15px;
+    padding-right: 70px;
 }
 
 
@@ -681,8 +688,7 @@ overflow: hidden;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    padding-top: 20px;
-    padding-right: 70px;
+    
 }
 
 .mailto-footer-mail,
@@ -701,9 +707,7 @@ overflow: hidden;
     line-height: 1.172;
     letter-spacing: 3%;
     color: #fff;
-    padding-top:72px;
-    padding-bottom:20px;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .footer-social-links-list-item {
@@ -715,6 +719,9 @@ overflow: hidden;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+}
+
+.footer-social-links-link:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -722,10 +729,6 @@ overflow: hidden;
 .footer-social-links-list-item:focus {
     background-color: var(--secondary-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-links-list-item:not(:last-child){
-    margin-right: 10px;
 }
 
 .footer-social-links-icon {
